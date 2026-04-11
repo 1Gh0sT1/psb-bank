@@ -28,10 +28,10 @@ export default function GovernorsStatementPage() {
             <div className="max-w-4xl border-l border-gold/50 pl-10 md:pl-16">
               <h2 className="text-[12px] font-black uppercase tracking-[0.6em] text-gold mb-6">Institutional Address</h2>
               <h1 className="text-3xl sm:text-5xl lg:text-8xl font-serif text-white tracking-tight mb-8 leading-tight">
-                The Governing Board
+                GOVERNOR’S STATEMENT
               </h1>
               <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
-                <span className="text-lg lg:text-xl font-light text-white/60 tracking-wide">Governor & CEO</span>
+                <span className="text-lg lg:text-xl font-light text-white/60 tracking-wide">Dr. Alistair Thorne, Governor & CEO</span>
                 <div className="h-[1px] w-12 bg-gold/30 hidden md:block" />
                 <span className="text-[11px] font-mono text-gold uppercase tracking-[0.3em]">Q2 2026 Address to Institutional Stakeholders</span>
               </div>
@@ -50,14 +50,14 @@ export default function GovernorsStatementPage() {
               A Message from the Governor
             </h3>
             <div className="space-y-10 text-navy/90 font-serif leading-relaxed text-xl lg:text-2xl">
-                 <p className="font-bold mb-12">Institutional Statement,</p>
+              <p className="font-bold mb-12 italic">Ladies and Gentlemen,</p>
               
               <p>
-                 Pacific Settlement Bank (PSB) was established in 2011 pursuant to the Sovereign Financial Framework Act of the Marshall Islands. Founded to bridge the gap between traditional capital markets and the emerging digital economy, PSB operates as a premier, autonomous financial institution headquartered in Majuro, Republic of the Marshall Islands.
+                In an era defined by unprecedented geopolitical shifts and the rapid erosion of traditional financial boundaries, Pacific Settlement Bank (PSB) stands as an unyielding bastion of stability. We do not merely safeguard assets; we architect the future of sovereign digital finance.
               </p>
               
               <p>
-                 The Pacific Settlement Bank (PSB) is the central node for institutional capital and forensic transparency across the PFGD jurisdictions. Our mandate centers on capital preservation and high-stakes fiduciary engineering.
+                Our performance in 2025—culminating in $184.6B in assets under custody and a near-perfect 99/100 transparency rating—is a testament to the resilience of the Pacific Financial Governance District (PFGD). While the global banking sector grapples with legacy vulnerabilities, PSB has thrived by embracing the intersection of sovereign law and post-quantum technology.
               </p>
             </div>
           </article>

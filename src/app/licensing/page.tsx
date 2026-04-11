@@ -136,9 +136,19 @@ export default function LicensingPage() {
               <h1 className="text-5xl lg:text-8xl font-serif text-white tracking-tight mb-8">
                 Licensing &<br />Authorisation
               </h1>
-              <p className="text-sm font-mono text-white/40 uppercase tracking-widest max-w-lg leading-loose">
+              <p className="text-sm font-mono text-white/40 uppercase tracking-widest max-w-lg leading-loose mb-10">
                 Regulatory Requirements & Institutional Framework for establishing banking and trust entities within the jurisdiction.
               </p>
+              <a 
+                href="/assets/documents/banking-licensing-policy.pdf" 
+                target="_blank"
+                className="inline-flex items-center gap-4 px-8 py-4 bg-gold text-navy text-[10px] font-black uppercase tracking-[0.3em] hover:bg-white transition-all shadow-2xl"
+              >
+                Download Full Policy (PDF)
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+              </a>
             </div>
             
             <div className="lg:col-span-5 bg-white/5 backdrop-blur-xl border border-white/10 p-10 lg:p-12 relative overflow-hidden group hover:border-gold/30 transition-all">

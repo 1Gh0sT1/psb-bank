@@ -62,7 +62,6 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
       const contentMatch = plainText.toLowerCase().includes(cleanQuery);
 
       if (titleMatch || contentMatch) {
-        // Find a relevant excerpt
         let excerpt = '';
         if (contentMatch) {
           const index = plainText.toLowerCase().indexOf(cleanQuery);
@@ -73,35 +72,60 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
           excerpt = plainText.substring(0, 120).trim() + '...';
         }
 
+        // Fix path for introduction
+        const finalSlug = item.slug === 'introduction' ? '/about-pacific-settlement-bank' : `/${item.slug}`;
+
         matches.push({
           title: item.title,
-          slug: `/${item.slug}`,
+          slug: finalSlug,
           excerpt: excerpt,
-          category: 'Page Content'
+          category: 'Institutional'
         });
       }
     });
 
-    // 2. Add some hardcoded sections if they match (for pages not in content.json)
+    // 2. Comprehensive indexing of all static sections
     const staticPages = [
-      { title: 'Board of Directors', slug: '/board-of-directors', excerpt: 'Meet our global governing and fiduciary body...' },
-      { title: 'Partner Banks', slug: '/list-of-partner-banks', excerpt: 'Browse our network of correspondent banking partners...' },
-      { title: 'Contact Us', slug: '/contact-us', excerpt: 'Reach our global offices in Samoa, Marshall Islands, and more...' },
+      // About Section
+      { title: 'Who We Are', slug: '/about-pacific-settlement-bank', excerpt: 'Institutional history, mission and sovereign mandate of PSB.', category: 'Institutional' },
+      { title: 'Board of Directors', slug: '/board-of-directors', excerpt: 'The supreme governing and fiduciary body of the institution.', category: 'Governance' },
+      { title: 'Strategic Functions', slug: '/functions', excerpt: 'A detailed look at our hybrid settlement and fiduciary roles.', category: 'Institutional' },
+      { title: 'Careers', slug: '/careers', excerpt: 'Join our team of global experts in finance and technology.', category: 'Institutional' },
+      
+      // Banking & Markets
+      { title: 'Exchange Rates', slug: '/exchange-rates', excerpt: 'Real-time multi-currency exchange rates and history.', category: 'Banking & Markets' },
+      { title: 'FX Auction', slug: '/fx-auction', excerpt: 'Sovereign-tier asset auctions for institutional investors.', category: 'Banking & Markets' },
+      { title: 'Partner Banks', slug: '/list-of-partner-banks', excerpt: 'Official registry of correspondent and partner banks.', category: 'Registries' },
+      { title: 'Forex Bureaus', slug: '/list-of-forex-bureaus', excerpt: 'Directory of licensed foreign exchange bureaus.', category: 'Registries' },
+      
+      // Publications
+      { title: 'Licensing Records', slug: '/licensing', excerpt: 'Institutional licensing frameworks and active mandates.', category: 'Publications' },
+      { title: 'Monetary Policy', slug: '/monetary-policy', excerpt: 'Official policy statements and stability frameworks.', category: 'Publications' },
+      { title: 'Regulations', slug: '/regulations', excerpt: 'The Sovereign Financial Framework Act and institutional rules.', category: 'Publications' },
+      { title: 'Monetary Statistics', slug: '/monetary-statistics', excerpt: 'Quarterly reports and institutional economic data.', category: 'Publications' },
+      
+      // Critical Links
+      { title: 'Governor’s Statement', slug: '/governors-statement', excerpt: 'Official address on institutional stability and future growth.', category: 'Executive' },
+      { title: 'Contact Us', slug: '/contact-us', excerpt: 'Global headquarters and regional operational nodes.', category: 'Support' },
+      { title: 'Latest News', slug: '/news', excerpt: 'Official announcements and institutional updates.', category: 'Media' },
     ];
 
     staticPages.forEach(p => {
-      if (p.title.toLowerCase().includes(cleanQuery) && !matches.some(m => m.slug === p.slug)) {
-        matches.push({ ...p, category: 'Navigation' });
+      const matchTitle = p.title.toLowerCase().includes(cleanQuery);
+      const matchExcerpt = p.excerpt.toLowerCase().includes(cleanQuery);
+      
+      if ((matchTitle || matchExcerpt) && !matches.some(m => m.slug === p.slug)) {
+        matches.push(p);
       }
     });
 
-    setResults(matches.slice(0, 8)); // Limit to top 8 results
+    setResults(matches.slice(0, 10)); // Slightly more results
   }, [query]);
 
   return (
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-[10000] flex items-start justify-center pt-24 px-4 sm:pt-32">
+        <div className="fixed inset-0 z-[10000] flex items-start justify-center pt-24 px-4 sm:pt-32 pointer-events-auto">
           {/* Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
@@ -116,7 +140,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
             initial={{ opacity: 0, y: -20, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -20, scale: 0.98 }}
-            className="relative w-full max-w-2xl bg-white shadow-2xl overflow-hidden border border-gold/20"
+            className="relative w-full max-w-2xl bg-white shadow-2xl overflow-hidden border border-gold/20 pointer-events-auto"
           >
             {/* Search Input Area */}
             <div className="flex items-center gap-4 px-6 py-5 border-b border-zinc-100">

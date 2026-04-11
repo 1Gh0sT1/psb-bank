@@ -5,16 +5,6 @@
     "html": "<div className='prose prose-gold max-w-none'><p>Pacific Settlement Bank (PSB) represents a new era in institutional finance. Established to provide the bridge between traditional capital markets and the digital asset ecosystem, PSB operates as a premier hybrid financial institution under the Sovereign Financial Framework Act.</p><p>Our mission is to ensure price stability and sound financial systems in support of sustainable economic growth across Oceania and the Pacific Financial Governance District (PFGD).</p></div>"
   },
   {
-    "title": "FX Auction",
-    "slug": "fx-auction",
-    "html": "<div className='prose prose-gold max-w-none'><h3>The Sovereign Gateway to Multimodal Liquidity</h3><p>PSB conducts bespoke asset auctions engineered for central banks, sovereign wealth funds, and accredited institutional investors. Our auction engine utilizes the Pacific Ledger protocol for T+0 settlement across 11 regional nodes.</p><h4>Auction Pillars</h4><ul><li>Multimodal Liquidity Pools (Fiat, Digital, Precious Metals)</li><li>Sovereign-Tier Exclusivity ($25M+ Minimum Mandate)</li><li>Quantum-Secure Auction Platform (QSAP)</li></ul></div>"
-  },
-  {
-    "title": "Wealth Management",
-    "slug": "treasury-bills",
-    "html": "<div className='prose prose-gold max-w-none'><h3>The Philosophy of Capital Preservation</h3><p>PSB Wealth Management operates at the intersection of Swiss fiduciary traditions and post-quantum digital security. We serve a curated circle of sovereign wealth funds and multinational family offices.</p><h4>Core Pillars</h4><ul><li><strong>Multi-Jurisdictional Trust Structuring:</strong> Impenetrable structures across 11 strategic nodes.</li><li><strong>Pacific Ledger Custody:</strong> Quantum-resistant cold storage for multi-asset portfolios.</li><li><strong>Global Family Office Support:</strong> Infrastructure for private jet financing, maritime insurance, and tax-neutral liquidations.</li></ul></div>"
-  },
-  {
     "title": "Regulatory Oversight",
     "slug": "regulatory-oversight",
     "html": "<div className='prose prose-gold max-w-none'><p>PSB operates under a multi-layered regulatory architecture. Our primary mandate is derived from the Sovereign Financial Framework Act (2011), establishing PSB as the foundational clearing house of the Pacific Financial Governance District (PFGD).</p><ul><li>FATF & OECD Alignment (Rule 15b compliance).</li><li>Real-time oversight via the Pacific Ledger.</li><li>Quantum-resistant data sovereignty.</li></ul></div>"

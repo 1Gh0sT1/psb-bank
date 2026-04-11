@@ -24,6 +24,8 @@ export const navigation: NavGroup[] = [
     links: [
       { name: 'Exchange Rates', href: '/exchange-rates' },
       { name: 'FX Auction', href: '/fx-auction' },
+      { name: 'Treasury Bills', href: '/treasury-bills' },
+      { name: 'National Payment System', href: '/national-payment-system' },
       { name: 'Partner Banks', href: '/list-of-partner-banks' },
       { name: 'Forex Bureaus', href: '/list-of-forex-bureaus' },
     ]

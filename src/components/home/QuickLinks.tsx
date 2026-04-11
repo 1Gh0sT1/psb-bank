@@ -51,13 +51,6 @@ export default function QuickLinks() {
               Direct access to the primary institutional frameworks and regulatory registries of the bank.
             </p>
           </div>
-          <div className="hidden lg:block text-right">
-            <div className="text-[10px] font-black uppercase tracking-[0.4em] text-navy/20 mb-4 items-center flex gap-4 justify-end">
-              <span>Fiduciary Bridge Active</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-gold animate-pulse" />
-            </div>
-            <div className="h-[0.5px] w-48 bg-gold/30" />
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-t border-l border-zinc-100">

@@ -37,14 +37,14 @@ export default function NewsSection() {
       </div>
 
       <div className="mx-auto max-w-7xl px-8 lg:px-12 relative z-10">
-        <div className="mb-32 flex flex-col lg:flex-row lg:items-end justify-between items-start gap-12 border-b border-white/10 pb-20">
-          <div>
-            <h3 className="font-serif text-4xl lg:text-9xl text-white italic tracking-tight">Recent news</h3>
-            <p className="text-lg lg:text-xl text-white/30 font-light mt-10 max-w-xl italic">
+        <div className="mb-32 flex flex-col items-center text-center gap-12 border-b border-white/10 pb-20">
+          <div className="max-w-4xl">
+            <h3 className="font-serif text-4xl lg:text-9xl text-white italic tracking-tight underline decoration-gold/20 decoration-1 underline-offset-[20px]">Recent news</h3>
+            <p className="text-lg lg:text-xl text-white/30 font-light mt-12 mx-auto max-w-2xl italic leading-relaxed">
               Official institutional releases, regulatory updates and strategic announcements from the bank board.
             </p>
           </div>
-          <Link href="/news" className="text-[10px] font-black uppercase tracking-[0.4em] text-white/40 hover:text-gold transition-colors pb-4 border-b border-white/10">
+          <Link href="/news" className="text-[10px] font-black uppercase tracking-[0.4em] text-white/40 hover:text-gold transition-colors pb-4 border-b-2 border-gold/20">
             Archive Access →
           </Link>
         </div>

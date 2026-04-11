@@ -5,8 +5,12 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: '/admin',
-        destination: `${process.env.INTERNAL_PB_URL || 'http://pocketbase:8090'}/_/`,
+        source: '/admin/:path*',
+        destination: `${process.env.INTERNAL_PB_URL || 'http://pocketbase:8090'}/:path*`,
+      },
+      {
+        source: '/_/:path*',
+        destination: `${process.env.INTERNAL_PB_URL || 'http://pocketbase:8090'}/_/:path*`,
       },
     ];
   },

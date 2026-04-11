@@ -261,6 +261,25 @@ export default function MonetaryStatisticsPage() {
                </div>
             </div>
 
+            {/* COMPLIANCE DISCLAIMER */}
+            <div className="mt-32 p-10 bg-zinc-50 border-l-4 border-gold relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gold/5 -translate-y-1/2 translate-x-1/2 rounded-full" />
+              <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-gold mb-6">Transparency Disclaimer</h4>
+              <div className="max-w-3xl space-y-8">
+                <p className="text-sm text-navy/60 leading-relaxed font-light">
+                  Monetary statistics are aggregated to protect client anonymity under the Sovereign Privacy Act. Data excludes specific PII or PEP-related identifiers to maintain absolute confidentiality.
+                </p>
+                <div className="pt-8 border-t border-zinc-200/60">
+                  <p className="text-lg font-serif italic text-navy/80 leading-relaxed mb-4">
+                    &quot;In offshore finance, transparency and privacy are not opposites—they are pillars of trust.&quot;
+                  </p>
+                  <cite className="not-italic text-[9px] font-black uppercase tracking-[0.3em] text-navy/30">
+                    — Rajiv Kapoor, Chief Compliance Officer
+                  </cite>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
