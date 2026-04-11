@@ -1,0 +1,476 @@
+{
+  "banks": [
+    {
+      "name": "Bank of South Pacific (BSP)",
+      "status": "Joint Venture",
+      "start_of_operations": "1957",
+      "country_of_origin": "Papua New Guinea"
+    },
+    {
+      "name": "Vanuatu National Bank",
+      "status": "National",
+      "start_of_operations": "1982",
+      "country_of_origin": "Vanuatu"
+    },
+    {
+      "name": "Bank of the Cook Islands",
+      "status": "National",
+      "start_of_operations": "1991",
+      "country_of_origin": "Cook Islands"
+    },
+    {
+      "name": "Cayman National Bank",
+      "status": "Foreign",
+      "start_of_operations": "1974",
+      "country_of_origin": "Cayman Islands"
+    },
+    {
+      "name": "Seychelles International Mercantile Bank",
+      "status": "Foreign",
+      "start_of_operations": "2005",
+      "country_of_origin": "Seychelles"
+    },
+    {
+      "name": "Bahamas Development Bank",
+      "status": "National",
+      "start_of_operations": "2008",
+      "country_of_origin": "Bahamas"
+    },
+    {
+      "name": "Samoa International Trust Bank",
+      "status": "Joint Venture",
+      "start_of_operations": "2010",
+      "country_of_origin": "Samoa"
+    },
+    {
+      "name": "Palau Oceanic Bank",
+      "status": "National",
+      "start_of_operations": "1999",
+      "country_of_origin": "Palau"
+    },
+    {
+      "name": "Fiji Offshore Financial Services",
+      "status": "Joint Venture",
+      "start_of_operations": "2015",
+      "country_of_origin": "Fiji"
+    },
+    {
+      "name": "Anguilla Commercial Bank",
+      "status": "National",
+      "start_of_operations": "1989",
+      "country_of_origin": "Anguilla"
+    },
+    {
+      "name": "Nauru Pacific Savings Bank",
+      "status": "National",
+      "start_of_operations": "2003",
+      "country_of_origin": "Nauru"
+    },
+    {
+      "name": "St. Helena Bank",
+      "status": "National",
+      "start_of_operations": "1976",
+      "country_of_origin": "St. Helena (UK)"
+    },
+    {
+      "name": "Marshall Islands Maritime Bank",
+      "status": "Foreign",
+      "start_of_operations": "2012",
+      "country_of_origin": "Marshall Islands"
+    },
+    {
+      "name": "Antigua Global Trust",
+      "status": "Joint Venture",
+      "start_of_operations": "2001",
+      "country_of_origin": "Antigua and Barbuda"
+    },
+    {
+      "name": "Belize Horizon Bank",
+      "status": "National",
+      "start_of_operations": "1995",
+      "country_of_origin": "Belize"
+    },
+    {
+      "name": "Bermuda Capital Group",
+      "status": "Foreign",
+      "start_of_operations": "1968",
+      "country_of_origin": "Bermuda"
+    },
+    {
+      "name": "Gibraltar Financial Services",
+      "status": "Joint Venture",
+      "start_of_operations": "2006",
+      "country_of_origin": "Gibraltar"
+    },
+    {
+      "name": "Labuan Offshore Bank",
+      "status": "Foreign",
+      "start_of_operations": "1998",
+      "country_of_origin": "Malaysia (Labuan)"
+    },
+    {
+      "name": "Liechtenstein Private Bank",
+      "status": "Foreign",
+      "start_of_operations": "1985",
+      "country_of_origin": "Liechtenstein"
+    },
+    {
+      "name": "Tuvalu Microfinance Alliance",
+      "status": "National",
+      "start_of_operations": "2018",
+      "country_of_origin": "Tuvalu"
+    }
+  ],
+  "brokers": [
+    {
+      "name": "Pacific Pivot FX",
+      "status": "Active",
+      "country_of_origin": "Vanuatu",
+      "license_authority": "VFSC",
+      "license_expiry": "15.12.2026"
+    },
+    {
+      "name": "Cayman Liquidity Hub",
+      "status": "Active",
+      "country_of_origin": "Cayman Islands",
+      "license_authority": "CIMA",
+      "license_expiry": "30.06.2027"
+    },
+    {
+      "name": "Seychelles Crypto-FX",
+      "status": "Active",
+      "country_of_origin": "Seychelles",
+      "license_authority": "FSA",
+      "license_expiry": "31.03.2028"
+    },
+    {
+      "name": "Samoa Offshore Traders",
+      "status": "Pending Renewal",
+      "country_of_origin": "Samoa",
+      "license_authority": "CBS",
+      "license_expiry": "28.02.2029"
+    },
+    {
+      "name": "Palau Forex Solutions",
+      "status": "Active",
+      "country_of_origin": "Palau",
+      "license_authority": "PFCC",
+      "license_expiry": "31.12.2025"
+    },
+    {
+      "name": "Marshall Islands FX Capital",
+      "status": "Active",
+      "country_of_origin": "Marshall Islands",
+      "license_authority": "BMA",
+      "license_expiry": "14.09.2026"
+    },
+    {
+      "name": "Gibraltar FX Pro",
+      "status": "Active",
+      "country_of_origin": "Gibraltar",
+      "license_authority": "GFSC",
+      "license_expiry": "30.11.2025"
+    },
+    {
+      "name": "Labuan Crypto Arbitrage",
+      "status": "Active",
+      "country_of_origin": "Malaysia (Labuan)",
+      "license_authority": "LFSA",
+      "license_expiry": "31.07.2026"
+    },
+    {
+      "name": "Bahamas FX & Bullion",
+      "status": "Active",
+      "country_of_origin": "Bahamas",
+      "license_authority": "SCB",
+      "license_expiry": "31.01.2025"
+    },
+    {
+      "name": "Anguilla ECN Markets",
+      "status": "Active",
+      "country_of_origin": "Anguilla",
+      "license_authority": "ANG FSC",
+      "license_expiry": "15.05.2026"
+    },
+    {
+      "name": "Belize Offshore Trading",
+      "status": "Active",
+      "country_of_origin": "Belize",
+      "license_authority": "IFSC",
+      "license_expiry": "31.08.2024"
+    },
+    {
+      "name": "Malta Prime FX",
+      "status": "Active",
+      "country_of_origin": "Malta",
+      "license_authority": "MFSA",
+      "license_expiry": "30.04.2026"
+    },
+    {
+      "name": "St. Helena FX",
+      "status": "Active",
+      "country_of_origin": "St. Helena",
+      "license_authority": "SHG",
+      "license_expiry": "31.12.2025"
+    },
+    {
+      "name": "Mauritius Forex Hub",
+      "status": "Active",
+      "country_of_origin": "Mauritius",
+      "license_authority": "FSC",
+      "license_expiry": "30.06.2025"
+    },
+    {
+      "name": "Fiji Cross-Border Trading",
+      "status": "Active",
+      "country_of_origin": "Fiji",
+      "license_authority": "RFCF",
+      "license_expiry": "31.03.2026"
+    },
+    {
+      "name": "Cyprus Offshore FX",
+      "status": "Active",
+      "country_of_origin": "Cyprus",
+      "license_authority": "CySEC",
+      "license_expiry": "31.10.2025"
+    },
+    {
+      "name": "Dominica FX Pro",
+      "status": "Active",
+      "country_of_origin": "Dominica",
+      "license_authority": "DFSA",
+      "license_expiry": "31.12.2024"
+    },
+    {
+      "name": "Bermuda FX & Metals",
+      "status": "Active",
+      "country_of_origin": "Bermuda",
+      "license_authority": "BMA",
+      "license_expiry": "30.09.2026"
+    },
+    {
+      "name": "Nauru Crypto-FX",
+      "status": "Active",
+      "country_of_origin": "Nauru",
+      "license_authority": "NFSA",
+      "license_expiry": "31.05.2025"
+    },
+    {
+      "name": "Antigua ECN Trading",
+      "status": "Active",
+      "country_of_origin": "Antigua and Barbuda",
+      "license_authority": "FSRA",
+      "license_expiry": "15.11.2025"
+    },
+    {
+      "name": "Cook Islands FX Solutions",
+      "status": "Active",
+      "country_of_origin": "Cook Islands",
+      "license_authority": "FSC",
+      "license_expiry": "31.07.2025"
+    },
+    {
+      "name": "Liechtenstein FX Capital",
+      "status": "Active",
+      "country_of_origin": "Liechtenstein",
+      "license_authority": "FMA",
+      "license_expiry": "31.12.2026"
+    },
+    {
+      "name": "Tuvalu Micro FX",
+      "status": "Active",
+      "country_of_origin": "Tuvalu",
+      "license_authority": "TFSA",
+      "license_expiry": "30.04.2025"
+    },
+    {
+      "name": "Monaco Forex Elite",
+      "status": "Active",
+      "country_of_origin": "Monaco",
+      "license_authority": "CCBF",
+      "license_expiry": "31.08.2026"
+    },
+    {
+      "name": "Isle of Man FX",
+      "status": "Active",
+      "country_of_origin": "Isle of Man",
+      "license_authority": "FSA",
+      "license_expiry": "31.03.2026"
+    },
+    {
+      "name": "Andorra FX Partners",
+      "status": "Active",
+      "country_of_origin": "Andorra",
+      "license_authority": "AFA",
+      "license_expiry": "31.12.2025"
+    },
+    {
+      "name": "St. Kitts FX Ventures",
+      "status": "Active",
+      "country_of_origin": "St. Kitts and Nevis",
+      "license_authority": "FSRC",
+      "license_expiry": "30.06.2025"
+    },
+    {
+      "name": "Labuan Offshore FX",
+      "status": "Active",
+      "country_of_origin": "Malaysia (Labuan)",
+      "license_authority": "LFSA",
+      "license_expiry": "31.10.2026"
+    },
+    {
+      "name": "Guernsey FX Traders",
+      "status": "Active",
+      "country_of_origin": "Guernsey",
+      "license_authority": "GFSC",
+      "license_expiry": "31.01.2026"
+    },
+    {
+      "name": "Jersey FX Capital",
+      "status": "Active",
+      "country_of_origin": "Jersey",
+      "license_authority": "JFSC",
+      "license_expiry": "31.12.2025"
+    },
+    {
+      "name": "BVI Crypto-FX",
+      "status": "Active",
+      "country_of_origin": "British Virgin Is.",
+      "license_authority": "BVIFSC",
+      "license_expiry": "30.04.2026"
+    },
+    {
+      "name": "Aruba FX Markets",
+      "status": "Active",
+      "country_of_origin": "Aruba",
+      "license_authority": "CBCS",
+      "license_expiry": "31.07.2025"
+    },
+    {
+      "name": "Curacao Offshore FX",
+      "status": "Active",
+      "country_of_origin": "Curacao",
+      "license_authority": "CBCS",
+      "license_expiry": "31.12.2024"
+    },
+    {
+      "name": "Greenland FX",
+      "status": "Active",
+      "country_of_origin": "Greenland",
+      "license_authority": "GDSA",
+      "license_expiry": "30.06.2026"
+    },
+    {
+      "name": "Faroe Islands FX",
+      "status": "Active",
+      "country_of_origin": "Faroe Islands",
+      "license_authority": "FMA",
+      "license_expiry": "31.05.2025"
+    },
+    {
+      "name": "San Marino FX",
+      "status": "Active",
+      "country_of_origin": "San Marino",
+      "license_authority": "CBSM",
+      "license_expiry": "31.03.2026"
+    },
+    {
+      "name": "Liechtenstein Crypto Traders",
+      "status": "Active",
+      "country_of_origin": "Liechtenstein",
+      "license_authority": "FMA",
+      "license_expiry": "31.12.2025"
+    },
+    {
+      "name": "Montserrat FX",
+      "status": "Active",
+      "country_of_origin": "Montserrat",
+      "license_authority": "MFSA",
+      "license_expiry": "30.09.2025"
+    },
+    {
+      "name": "Gibraltar CryptoFX",
+      "status": "Active",
+      "country_of_origin": "Gibraltar",
+      "license_authority": "GFSC",
+      "license_expiry": "31.12.2026"
+    },
+    {
+      "name": "St. Lucia FX Pro",
+      "status": "Active",
+      "country_of_origin": "St. Lucia",
+      "license_authority": "FSA",
+      "license_expiry": "31.10.2025"
+    },
+    {
+      "name": "Greenland Metals Trading",
+      "status": "Active",
+      "country_of_origin": "Greenland",
+      "license_authority": "GDSA",
+      "license_expiry": "30.06.2026"
+    },
+    {
+      "name": "Vanuatu Crypto-FX",
+      "status": "Active",
+      "country_of_origin": "Vanuatu",
+      "license_authority": "VFSC",
+      "license_expiry": "15.12.2025"
+    },
+    {
+      "name": "Seychelles ECN Markets",
+      "status": "Active",
+      "country_of_origin": "Seychelles",
+      "license_authority": "FSA",
+      "license_expiry": "31.03.2025"
+    },
+    {
+      "name": "Samoa Metals & FX",
+      "status": "Active",
+      "country_of_origin": "Samoa",
+      "license_authority": "CBS",
+      "license_expiry": "28.02.2024"
+    },
+    {
+      "name": "Palau Prime FX",
+      "status": "Active",
+      "country_of_origin": "Palau",
+      "license_authority": "PFCC",
+      "license_expiry": "31.12.2025"
+    },
+    {
+      "name": "Marshall Islands Crypto-FX",
+      "status": "Active",
+      "country_of_origin": "Marshall Islands",
+      "license_authority": "BMA",
+      "license_expiry": "14.09.2026"
+    },
+    {
+      "name": "Cayman FX Elite",
+      "status": "Active",
+      "country_of_origin": "Cayman Islands",
+      "license_authority": "CIMA",
+      "license_expiry": "30.06.2026"
+    },
+    {
+      "name": "Bahamas Bullion Traders",
+      "status": "Active",
+      "country_of_origin": "Bahamas",
+      "license_authority": "SCB",
+      "license_expiry": "31.01.2025"
+    },
+    {
+      "name": "Anguilla Offshore FX",
+      "status": "Active",
+      "country_of_origin": "Anguilla",
+      "license_authority": "ANG FSC",
+      "license_expiry": "15.05.2026"
+    },
+    {
+      "name": "Belize Crypto Arbitrage",
+      "status": "Active",
+      "country_of_origin": "Belize",
+      "license_authority": "IFSC",
+      "license_expiry": "31.08.2024"
+    }
+  ]
+}

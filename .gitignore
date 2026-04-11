@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pocketbase
+/pb/pocketbase.exe
+/pb/pb_data/*.db
+/pb/pb_data/logs/
+/pb/pb_data/storage/
+/pb/pb_data/backups/
+!/pb/pb_data/types.d.ts
+
+# trash
+/trash

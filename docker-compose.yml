@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_PB_URL=http://pocketbase:8090
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT}
+      - SMTP_SECURE=${SMTP_SECURE}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASS=${SMTP_PASS}
+      - CONTACT_RECEIVER_EMAIL=${CONTACT_RECEIVER_EMAIL}
+    depends_on:
+      - pocketbase
+    restart: always
+
+  pocketbase:
+    image: alpine:latest
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./pb/pb_data:/pb/pb_data
+      - ./pb/pb_migrations:/pb/pb_migrations
+    working_dir: /pb
+    command: ["sh", "-c", "wget https://github.com/pocketbase/pocketbase/releases/download/v0.22.8/pocketbase_0.22.8_linux_amd64.zip && unzip pocketbase_0.22.8_linux_amd64.zip && ./pocketbase serve --http=0.0.0.0:8090"]
+    restart: always
+
+volumes:
+  pb_data:
