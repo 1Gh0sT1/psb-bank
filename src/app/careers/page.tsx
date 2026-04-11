@@ -130,10 +130,10 @@ const JobAccordion = ({ position }: { position: JobPosition }) => {
                     </li>
                   ))}
                 </ul>
-                
+
                 <div className="mt-12 pt-12 border-t border-zinc-100">
-                   <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-gold mb-4">Apply If</h4>
-                   <p className="text-lg font-serif italic text-navy/90">{position.applyIf}</p>
+                  <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-gold mb-4">Apply If</h4>
+                  <p className="text-lg font-serif italic text-navy/90">{position.applyIf}</p>
                 </div>
               </div>
             </div>
@@ -152,19 +152,19 @@ export default function CareersPage() {
         {/* Ambient Gold Glows */}
         <div className="absolute top-0 right-0 w-[900px] h-[900px] bg-gold/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3 pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gold/5 rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2 pointer-events-none" />
-        
+
         {/* Background Logo Pattern */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] opacity-[0.02] pointer-events-none z-0">
           <img src="/assets/kit/marks/psb-mark-white.svg" alt="" className="w-full h-full object-contain" />
         </div>
-        
+
         <div className="mx-auto max-w-7xl px-8 lg:px-12 relative z-10 text-center lg:text-left">
-          <Breadcrumbs 
+          <Breadcrumbs
             variant="white"
             items={[
               { label: 'Home', href: '/' },
               { label: 'Strategic Careers' }
-            ]} 
+            ]}
           />
 
           <div className="max-w-5xl border-l border-gold/50 pl-10">
@@ -173,7 +173,7 @@ export default function CareersPage() {
               Sovereign Excellence
             </h1>
             <p className="text-xl lg:text-2xl text-white/40 font-light leading-relaxed italic max-w-3xl">
-              Pacific Settlement Bank is not hiring employees; we are recruiting the architects of a secure, 
+              Pacific Settlement Bank is not hiring employees; we are recruiting the architects of a secure,
               autonomous financial future. We seek the global 0.1%.
             </p>
           </div>
@@ -194,12 +194,12 @@ export default function CareersPage() {
             <div className="lg:col-span-8 lg:pl-24">
               <div className="prose prose-2xl prose-slate !max-w-none text-navy/60 font-light leading-relaxed italic">
                 <p className="mb-12">
-                  At PSB, we operate at the intersection of international maritime law, quantum-cryptographic 
-                  security, and global institutional liquidity. Our mission is to ensure price stability 
+                  At PSB, we operate at the intersection of international maritime law, quantum-cryptographic
+                  security, and global institutional liquidity. Our mission is to ensure price stability
                   and absolute asset protection for sovereign nations and global family offices.
                 </p>
                 <p>
-                  The Future of Money is not merely digital—it is autonomous, resilient, and invisible to 
+                  The Future of Money is not merely digital—it is autonomous, resilient, and invisible to
                   systemic threats. We are building that reality on the Pacific Ledger.
                 </p>
               </div>
@@ -214,24 +214,24 @@ export default function CareersPage() {
           <h2 className="text-[10px] font-black uppercase tracking-[0.5em] text-gold text-center mb-24">The Institutional Privilege Framework</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-24">
             {[
-              { 
-                title: "Sovereign Compensation", 
+              {
+                title: "Sovereign Compensation",
                 desc: "Tax-neutral structures under Marshall Islands & Samoa jurisdictions, maximizing global purchasing power."
               },
-              { 
-                title: "The Pacific Rotation", 
+              {
+                title: "The Pacific Rotation",
                 desc: "Strategic placement across our 11 nodes (Tahiti, Palau, Cook Islands) with private villa accommodations."
               },
-              { 
-                title: "Elite OPSEC Perks", 
+              {
+                title: "Elite OPSEC Perks",
                 desc: "Biometric-secured residences, encrypted satellite uplinks, and tactical threat-intelligence training."
               },
-              { 
-                title: "Legislative Access", 
+              {
+                title: "Legislative Access",
                 desc: "Collaborate directly with the Executive Board and PFRC to shape supranational digital asset law."
               },
-              { 
-                title: "Radical Meritocracy", 
+              {
+                title: "Radical Meritocracy",
                 desc: "A flat hierarchy where the most elegant mathematical solution always triumphs over bureaucracy."
               }
             ].map((item, idx) => (
@@ -255,7 +255,7 @@ export default function CareersPage() {
               <span className="w-2 h-2 rounded-full bg-gold animate-pulse" />
             </div>
           </div>
-          
+
           <div className="space-y-4">
             {POSITIONS.map((pos) => (
               <JobAccordion key={pos.id} position={pos} />
@@ -269,13 +269,13 @@ export default function CareersPage() {
         <div className="absolute inset-y-0 right-0 w-[500px] opacity-[0.05] pointer-events-none z-0">
           <img src="/assets/kit/marks/psb-mark-white.svg" alt="" className="w-full h-full object-contain object-right-bottom" />
         </div>
-        
+
         <div className="mx-auto max-w-7xl px-8 lg:px-12 relative z-10">
-          <Breadcrumbs 
+          <Breadcrumbs
             items={[
               { label: 'Institutional' },
               { label: 'Strategic Careers' }
-            ]} 
+            ]}
           />
           <div className="max-w-4xl">
             <h2 className="text-[10px] font-black uppercase tracking-[0.5em] text-gold mb-12">The Submission Protocol</h2>
@@ -283,7 +283,7 @@ export default function CareersPage() {
               Standard resumes are not accepted. <br />
               Discretion is mandatory.
             </p>
-            
+
             <div className="grid md:grid-cols-3 gap-12 mt-24">
               <div>
                 <span className="block text-gold text-[10px] font-black uppercase tracking-[0.4em] mb-4">Phase 01</span>
@@ -304,7 +304,7 @@ export default function CareersPage() {
                 </p>
               </div>
             </div>
-            
+
             <div className="mt-24 pt-12 border-t border-white/10 text-center lg:text-left">
               <p className="text-white/20 text-[9px] font-black uppercase tracking-[0.4em]">
                 Final Note: We do not hire those who follow the path. We hire those who define where the path begins.
@@ -318,14 +318,6 @@ export default function CareersPage() {
       <section className="py-16 bg-white border-t border-zinc-100">
         <div className="mx-auto max-w-7xl px-8 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-4">
-             <div className="w-2 h-2 rounded-full bg-gold" />
-             <p className="text-[10px] font-black uppercase tracking-[0.3em] text-navy/40">
-                Next Executive Review Cycle: May 15, 2026
-             </p>
-          </div>
-          <div className="flex items-center gap-8">
-             <span className="text-[10px] uppercase tracking-widest text-navy/20">Secured via PFRC Framework</span>
-             <span className="text-[10px] uppercase tracking-widest text-navy/20">Ref: PSB-HR-2026-ALPHA</span>
           </div>
         </div>
       </section>
