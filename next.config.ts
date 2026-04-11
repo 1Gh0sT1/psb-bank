@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/admin',
-        destination: `${process.env.NEXT_PUBLIC_PB_URL || 'http://127.0.0.1:8090'}/_/`,
+        destination: `${process.env.INTERNAL_PB_URL || 'http://pocketbase:8090'}/_/`,
       },
     ];
   },
