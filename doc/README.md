@@ -23,7 +23,7 @@
 
 ---
 ### Институциональная поддержка
-- **Email**: info@pacificperf.com
+- **Email**: info@pacificapitalnetwork.com
 - **Sovereign Node**: Level 42, The Leviathan Plaza, Majuro, MH.
 
 *PSB Institutional Network © 2026. Все права защищены.*

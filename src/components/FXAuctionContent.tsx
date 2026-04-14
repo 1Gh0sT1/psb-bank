@@ -250,8 +250,8 @@ export default function FXAuctionContent() {
                      <div className="space-y-10">
                         <div className="space-y-4">
                            <span className="text-[10px] font-black uppercase tracking-widest text-white/30">Secure Communication</span>
-                           <a href="mailto:info@pacificperf.com" className="text-xl font-mono text-gold hover:text-white transition-colors block">
-                              info@pacificperf.com
+                           <a href="mailto:info@pacificapitalnetwork.com" className="text-xl font-mono text-gold hover:text-white transition-colors block">
+                              info@pacificapitalnetwork.com
                            </a>
                         </div>
                         <div className="space-y-4">

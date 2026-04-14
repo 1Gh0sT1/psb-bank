@@ -183,9 +183,9 @@ export default function ContactUsContent() {
                 <h3 className="text-[12px] font-black uppercase tracking-[0.5rem] text-gold mb-16">Secure Communication Protocols</h3>
                 <div className="space-y-12">
                   {[
-                    { label: "General Inquiries", value: "info@pacificperf.com" },
-                    { label: "Institutional Compliance", value: "info@pacificperf.com" },
-                    { label: "Governor’s Office", value: "info@pacificperf.com" }
+                    { label: "General Inquiries", value: "info@pacificapitalnetwork.com" },
+                    { label: "Institutional Compliance", value: "info@pacificapitalnetwork.com" },
+                    { label: "Governor’s Office", value: "info@pacificapitalnetwork.com" }
                   ].map((proto, i) => (
                     <div key={i} className="flex flex-col gap-2">
                       <span className="text-[9px] font-black uppercase tracking-widest text-zinc-400">{proto.label}</span>

@@ -299,7 +299,7 @@ export default function CareersPage() {
                 <span className="block text-gold text-[10px] font-black uppercase tracking-[0.4em] mb-4">Phase 03</span>
                 <h4 className="text-xl font-bold mb-4">Protocol-Based Send</h4>
                 <p className="text-white/40 font-light leading-relaxed flex flex-col gap-2">
-                  <span>Send to: <span className="text-gold">info@pacificperf.com</span></span>
+                  <span>Send to: <span className="text-gold">info@pacificapitalnetwork.com</span></span>
                   <span className="text-[9px] uppercase tracking-widest mt-2">[POSITION_CODE] || [SHA-256_HASH] || [SIGNAL_ID]</span>
                 </p>
               </div>

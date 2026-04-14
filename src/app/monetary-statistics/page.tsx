@@ -252,7 +252,7 @@ export default function MonetaryStatisticsPage() {
                      </div>
                      <div className="flex flex-col justify-center gap-6 border-l border-zinc-200 pl-16">
                         <div className="text-[10px] font-black text-navy/30 uppercase tracking-[0.3em] italic">Institutional Verification Gateway</div>
-                        <a href="mailto:info@pacificperf.com" className="text-2xl font-serif italic text-navy hover:text-gold transition-colors block">info@pacificperf.com</a>
+                        <a href="mailto:info@pacificapitalnetwork.com" className="text-2xl font-serif italic text-navy hover:text-gold transition-colors block">info@pacificapitalnetwork.com</a>
                         <p className="text-[9px] font-medium text-zinc-400 uppercase leading-relaxed m-0 italic">
                           Mandatory: Regulatory license, signed NDA, and PFRC-cleared Client ID.
                         </p>
