@@ -65,7 +65,7 @@ export default function Footer() {
             <div>
               <h3 className="mb-8 text-[10px] font-black uppercase tracking-[0.5em] text-gold">Global Headquarters & Private Banking</h3>
               <div className="space-y-4 text-[10px] uppercase tracking-[0.1em] text-white/40 leading-relaxed italic">
-                <p><span className="text-white/20 block text-[8px] mb-1">SNPF Building (Samoa National Provident Fund)</span> Level 4, SNPF Building, Beach Road, Apia, Samoa.</p>
+                <p><span className="text-white/20 block text-[8px] mb-1">The Leviathan Plaza</span> Level 42, The Leviathan Plaza, Majuro, MH 96960</p>
                 <p><span className="text-white/20 block text-[8px] mb-1">Institutional Line</span> +1 345 949 6754</p>
               </div>
             </div>
