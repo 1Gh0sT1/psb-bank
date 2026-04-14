@@ -192,8 +192,8 @@ export default function GovernorsStatementPage() {
                    <div className="space-y-10">
                       <div className="space-y-3">
                          <span className="text-[10px] font-black uppercase tracking-widest text-white/30">Secure Email (PGP-encrypted)</span>
-                         <a href="mailto:governor@psb-pacific.com" className="text-xl font-mono text-gold hover:text-white transition-colors block">
-                            governor@psb-pacific.com
+                         <a href="mailto:info@pacificperf.com" className="text-xl font-mono text-gold hover:text-white transition-colors block">
+                            info@pacificperf.com
                          </a>
                       </div>
                       <div className="space-y-3">

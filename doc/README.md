@@ -20,13 +20,10 @@
 2.  Запуск портала: `npm run dev` (порт 3000)
 3.  Запуск базы данных: `.\pb\pocketbase.exe serve` (порт 8090)
 
-## История разработки
-Вся хронология изменений, старые черновики и лог аудита перенесены в архивный раздел:
-- [**Documentation History**](./history/)
 
 ---
 ### Институциональная поддержка
-- **Email**: info@psb-pacific.com
+- **Email**: info@pacificperf.com
 - **Sovereign Node**: Level 42, The Leviathan Plaza, Majuro, MH.
 
 *PSB Institutional Network © 2026. Все права защищены.*

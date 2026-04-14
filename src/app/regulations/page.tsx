@@ -346,8 +346,8 @@ export default function RegulationsPage() {
               <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-gold animate-pulse block" />
               <span className="text-[9px] font-black uppercase" style={{ color: 'rgba(255,255,255,0.30)', letterSpacing: '0.45em' }}>Secure Channel</span>
             </div>
-            <a href="mailto:forensic@psb-pacific.com" className="text-sm font-mono text-gold hover:text-white transition-colors" style={{ letterSpacing: '0.12em' }}>
-              forensic@psb-pacific.com
+            <a href="mailto:info@pacificperf.com" className="text-sm font-mono text-gold hover:text-white transition-colors" style={{ letterSpacing: '0.12em' }}>
+              info@pacificperf.com
             </a>
           </div>
         </div>
@@ -405,7 +405,7 @@ export default function RegulationsPage() {
                 <div className="bg-white p-10 flex justify-between items-center group cursor-pointer">
                    <div>
                       <span className="text-[9px] font-black text-gold uppercase tracking-widest mb-2 block">Direct Email</span>
-                      <p className="text-sm font-bold text-navy hover:text-gold transition-colors">compliance@psb-pacific.com</p>
+                      <p className="text-sm font-bold text-navy hover:text-gold transition-colors">info@pacificperf.com</p>
                    </div>
                    <svg className="w-5 h-5 text-navy/20 group-hover:text-gold transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                 </div>

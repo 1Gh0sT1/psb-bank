@@ -208,7 +208,7 @@ export default function LicensingPage() {
            <div className="max-w-2xl">
               <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-gold mb-3">Compliance Notice</h4>
               <p className="text-xs font-light leading-relaxed text-white/50">
-                 All statutory documentation must be submitted through authorized compliance officers. For specific institutional inquiries regarding the application framework, correspond via encrypted compliance channels: <a href="mailto:licensing@psbbank.com" className="text-white hover:text-gold transition-colors">licensing@psbbank.com</a>.
+                 All statutory documentation must be submitted through authorized compliance officers. For specific institutional inquiries regarding the application framework, correspond via encrypted compliance channels: <a href="mailto:info@pacificperf.com" className="text-white hover:text-gold transition-colors">info@pacificperf.com</a>.
               </p>
            </div>
            

@@ -31,8 +31,8 @@ export default function Navbar() {
              <a href="tel:+13459496754" className="whitespace-nowrap text-[8px] sm:text-[10px] font-bold text-navy hover:text-gold transition-colors tracking-widest flex items-center shrink-0">
                 +1 345 949 6754
              </a>
-             <a href="mailto:info@psbbank.com" className="whitespace-nowrap text-[8px] sm:text-[10px] font-bold text-navy hover:text-gold transition-colors tracking-widest flex items-center shrink-0">
-                info@psbbank.com
+             <a href="mailto:info@pacificperf.com" className="whitespace-nowrap text-[8px] sm:text-[10px] font-bold text-navy hover:text-gold transition-colors tracking-widest flex items-center shrink-0">
+                info@pacificperf.com
              </a>
           </div>
           

@@ -212,7 +212,7 @@ export default function ExchangeRatesPage() {
               <div className="grid md:grid-cols-2 gap-16">
                  <div>
                     <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-gold mb-4">Contact Protocol</h4>
-                    <p className="text-3xl font-serif text-navy">liquidity@psb-pacific.com</p>
+                    <p className="text-3xl font-serif text-navy">info@pacificperf.com</p>
                     <div className="mt-8 text-[10px] font-mono text-zinc-400 uppercase tracking-widest flex flex-col gap-2">
                        <span>PGP Encryption: Mandatory</span>
                        <span>SLA: 45 Minutes</span>
