@@ -15,8 +15,6 @@ services:
       - SMTP_USER=${SMTP_USER}
       - SMTP_PASS=${SMTP_PASS}
       - CONTACT_RECEIVER_EMAIL=${CONTACT_RECEIVER_EMAIL}
-    depends_on:
-      - pocketbase
     restart: always
 
   pocketbase:
