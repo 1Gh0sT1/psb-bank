@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://psbbank.com',
+    url: 'https://pacificapitalnetwork.com',
     siteName: 'Pacific Settlement Bank',
     title: 'Pacific Settlement Bank | Sovereign Financial Framework',
     description: 'Sovereign. Secure. Infinite. The central node for institutional capital and forensic transparency.',
