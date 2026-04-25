@@ -115,12 +115,14 @@ export default function Navbar() {
                 </svg>
               </button>
 
-              <Link 
-                href="/"
+              <a 
+                href="https://pacificapitalnetwork.org"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hidden sm:flex items-center px-6 py-3 bg-navy text-gold text-[10px] font-black uppercase tracking-[0.3em] hover:bg-gold hover:text-navy transition-all duration-500 shadow-xl border border-gold/10"
               >
                 Online Banking
-              </Link>
+              </a>
 
               <button 
                 onClick={(e) => {
@@ -142,13 +144,15 @@ export default function Navbar() {
       {isOpen && (
         <div className="lg:hidden fixed inset-0 bg-white z-[9999] p-12 pt-40 overflow-y-auto pointer-events-auto">
             <div className="flex flex-col gap-16 mx-auto max-w-sm">
-                <Link 
-                  href="/"
+                <a 
+                  href="https://pacificapitalnetwork.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center gap-4 px-8 py-6 bg-navy text-gold text-[11px] font-black uppercase tracking-[0.4em] shadow-2xl"
                   onClick={() => setIsOpen(false)}
                 >
                   Online Banking
-                </Link>
+                </a>
 
                 {navigation.map((group) => (
                     <div key={group.name} className="border-b border-zinc-100 pb-12">
