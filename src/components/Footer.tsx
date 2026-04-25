@@ -63,10 +63,10 @@ export default function Footer() {
             ))}
 
             <div>
-              <h3 className="mb-8 text-[10px] font-black uppercase tracking-[0.5em] text-gold">Global Headquarters & Private Banking</h3>
+              <h3 className="mb-8 text-[10px] font-black uppercase tracking-[0.5em] text-gold">Head Office: New Zealand</h3>
               <div className="space-y-4 text-[10px] uppercase tracking-[0.1em] text-white/40 leading-relaxed italic">
-                <p><span className="text-white/20 block text-[8px] mb-1">The Leviathan Plaza</span> Level 42, The Leviathan Plaza, Majuro, MH 96960</p>
-                <p><span className="text-white/20 block text-[8px] mb-1">Institutional Line</span> +1 345 949 6754</p>
+                <p><span className="text-white/20 block text-[8px] mb-1">Regional Headquarters & Global Treasury</span> Level 28, 1 Queen Street, Britomart, Auckland 1010, New Zealand</p>
+                <p><span className="text-white/20 block text-[8px] mb-1">Phone</span> +64 9 300 1234</p>
               </div>
             </div>
           </div>

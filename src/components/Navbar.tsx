@@ -28,8 +28,8 @@ export default function Navbar() {
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-8 flex flex-col sm:flex-row h-full items-center justify-between gap-2 sm:gap-10">
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-10 overflow-hidden">
-             <a href="tel:+13459496754" className="whitespace-nowrap text-[8px] sm:text-[10px] font-bold text-navy hover:text-gold transition-colors tracking-widest flex items-center shrink-0">
-                +1 345 949 6754
+             <a href="tel:+6493001234" className="whitespace-nowrap text-[8px] sm:text-[10px] font-bold text-navy hover:text-gold transition-colors tracking-widest flex items-center shrink-0">
+                +64 9 300 1234
              </a>
              <a href="mailto:info@pacificapitalnetwork.com" className="whitespace-nowrap text-[8px] sm:text-[10px] font-bold text-navy hover:text-gold transition-colors tracking-widest flex items-center shrink-0">
                 info@pacificapitalnetwork.com
